@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Invader</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+  <form class="configuration">
+    <input type="number" value="" name="gridSize" id="gridSize" placeholder="Taille de la grille">
+    <input type="number" name="pixelSize" id="pixelSize" placeholder="Taille des pixels">
+    <input type="submit" name="submitButton" id="submitButton" value="Valider">
+  </form>
+  
+  </header>
+  <div id="invader">
+  <div class="pixel-container"></div>
+  <div class="color-picker">
+    <div class="picker blue" data-color="plain"></div>
+    <div class="picker red" data-color="empty"></div>
+    <div class="picker green" data-color="light"></div>
+    <div class="picker purple" data-color="highlight"></div>
+  </div>
+</div>
+  <script src="../js/app.js"></script>
+</body>
+</html>
